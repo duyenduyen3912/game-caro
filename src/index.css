@@ -1,7 +1,6 @@
 
 
 body {
-  font: 34px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
 
@@ -10,7 +9,7 @@ ul {
   padding-left: 50px;
 }
 
-.board-row:after {
+.line:after {
   clear: both;
   content: "";
   display: table;
@@ -26,12 +25,12 @@ ul {
   float: left;
   font-size: 54px;
   font-weight: bold;
-  height: 80px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 80px;
+  width: 60px;
 }
 
 .square:focus {
